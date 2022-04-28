@@ -80,9 +80,11 @@ body{
 #about{
     display: none;
 }
+
 .active{
     display: block !important;
 }
+
 .colorChange{
     color: #0f2027;
 }
@@ -140,4 +142,30 @@ body{
 
 .flex img{
     max-width: 200px;
+    margin-bottom: 5px;
 }
+.scale-up-center:hover {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s both;
+}
+ @-webkit-keyframes scale-up-center { 
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  
