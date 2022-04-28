@@ -21,6 +21,15 @@ header ul li{
     padding: 5px;
 }
 
+header ul li a{
+    transition: 180ms;
+}
+
+header ul li a:hover{
+    color: #0f2027;
+    text-decoration: underline;
+}
+
 #logo{
     width: 100px;
 }
@@ -52,7 +61,30 @@ body{
 }
 .container .name h5{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+#icon{
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink{
+    to{
+        visibility: hidden;
+    }
+}
+
+#about{
+    display: none;
+}
+.active{
+    display: block !important;
+}
+.colorChange{
+    color: #0f2027;
 }
 
 #about p {
@@ -68,10 +100,30 @@ body{
 
 .form input{
     width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .form button{
     width: 15%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right,#33667c 50%,#0f2027 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    /* background-color: #0f2027; */
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: all 200ms ease-out;
+    border-radius: 0px 5px 5px 0px;
+    margin: 20px;
+    margin-left: -5px;
+}
+
+.form button:hover{
+    background-position: left bottom;
 }
 
 .flex{

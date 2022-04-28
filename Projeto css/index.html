@@ -35,8 +35,8 @@
                 </h5>
             </div>
 
-            <div id="icon">
-                <i class="fa-solid fa-dragon"></i>
+            <div onClick="display()" id="icon">
+                <i class="fa-solid fa-dragon" id="iconDg"></i>
             </div>
 
             <div id="about">
@@ -73,5 +73,13 @@
         </section>
     </main>
     
+    <script>
+        function display(){
+            var text = document.getElementById('about');
+            text.classList.toggle('active');
+            var icon = document.getElementById('iconDg');
+            icon.classList.toggle('colorChange');
+        }
+    </script>
 </body>
 </html>
