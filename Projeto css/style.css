@@ -6,6 +6,10 @@
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+#logo{
+    width: 100px;
+}
+
 ul{
     list-style: none;
     font-size: 20px;
