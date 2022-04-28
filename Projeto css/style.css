@@ -6,6 +6,21 @@
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 5px;
+}
+
 #logo{
     width: 100px;
 }
@@ -57,4 +72,20 @@ body{
 
 .form button{
     width: 15%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    flex-basis: 100%;
+}
+
+.flex p{
+    max-width: 250px;
+}
+
+.flex img{
+    max-width: 200px;
 }
