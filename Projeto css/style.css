@@ -58,10 +58,12 @@ body{
 .container .name h1{
     font-weight: 600;
     font-size: 60px;
+    margin: 10px;
 }
 .container .name h5{
     font-weight: 600;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 #icon{
@@ -169,3 +171,62 @@ body{
     }
   }
   
+  @media only screen and (max-width: 540px){
+    .container .name h1{
+        font-size: 30px;
+    }
+    .container .name h5{
+        font-size: 15px;
+    }
+    .flex{
+        padding: 5%;
+        justify-content: center;
+    }
+    
+    .flex p{
+        padding: 5%;
+        font-size: 30%;
+    }
+    
+    .flex img{
+        max-width: 80px;
+        margin-bottom: 5px;
+    }
+
+    #about p {
+        padding: 10%;
+        text-align: justify;
+        max-width: 600px;
+        margin: -8% auto;
+        font-size: 80%;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .form div p{
+        font-size: 70%;
+        margin-bottom: -2%;
+    }
+
+  }
+
+  @media only screen and (max-width: 912px){
+
+    header{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .flex{
+        padding: 5%;
+        justify-content: center;
+    }
+}
