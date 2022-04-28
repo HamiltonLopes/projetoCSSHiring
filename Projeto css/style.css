@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    /* background: url(./imgbg.jpg) no-repeat center center fixed;
+    background-size: cover; */
+    background: linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+}
+
+.container{
+    text-align: center;
+}
+
+.container .name h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.container .name h5{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button{
+    width: 15%;
+}
