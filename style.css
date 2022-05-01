@@ -107,6 +107,7 @@ body{
     padding: 5px 10px;
     border: none;
     border-radius: 5px 0px 0px 5px;
+    color: black;
 }
 
 .form button{
@@ -172,6 +173,11 @@ body{
   }
   
   @media only screen and (max-width: 540px){
+
+    header ul li a{
+        font-size: 15px;
+    }
+
     .container .name h1{
         font-size: 30px;
     }
